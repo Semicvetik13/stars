@@ -1,0 +1,25 @@
+.Main{
+   float: left;}
+.one div{
+   display: inline-block;
+   background-image: url(images/star0.png);
+   background-repeat: no-repeat;
+   width: 76px;
+   height: 78px;
+   float: right;
+}
+.one div:hover,
+.one div:hover~ div{
+background-image: url(images/star1.png);
+}
+.two div{
+   float: right;
+   display: inline-block;
+   width: 76px;
+   height: 78px;
+   content: url(images/star0.png);
+}
+.two div:hover,
+.two div:hover ~ div{
+content: url(images/star1.png); 
+}
