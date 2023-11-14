@@ -3,7 +3,6 @@
 .one div{
    display: inline-block;
    background-image: url(images/star0.png);
-   background-repeat: no-repeat;
    width: 76px;
    height: 78px;
    float: right;
